@@ -95,14 +95,6 @@ h1, h2 {
     text-decoration: underline;
 }
 
-
-@media (max-width: 768px) {
-    .ad-banner {
-        padding: 20px;
-        background-image: none;
-        background-color: #005f74;
-    }
-
     .section {
         padding: 20px;
         margin: 10px;
