@@ -1,1 +1,111 @@
-x
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+}
+
+
+.ad-banner {
+    background-color: #007c9b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-image: url('https://www.who.int/images/default-source/who-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-bottom: 5px solid #fff;
+}
+
+.ad-banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.ad-banner h2 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.ad-banner p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff4d00;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .ad-banner {
+        padding: 20px;
+        background-image: none;
+        background-color: #005f74;
+    }
+
+    .section {
+        padding: 20px;
+        margin: 10px;
+    }
+}
